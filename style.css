@@ -27,7 +27,7 @@ video {
     display: inline-block;
     position: absolute;
     width: 100%;
-    height: auto;
+    height: 100%;
     right: 0;
     top: 0;
     object-fit: contain;
@@ -428,7 +428,7 @@ footer {
     .bio .bio-tarjeta {
         display: inline-block;
         line-height: 28px;
-        max-width: 85%;
+        max-width: 23em;
     }
     
     .bio-tarjeta .bio-descripcion {
@@ -507,6 +507,9 @@ footer {
         color:black
       }
       
+      .bio hr {
+        width: 10em;
+    }
     
     .skills .tarjeta-skills-diseno {
         position: relative;
@@ -577,22 +580,7 @@ footer {
         border-radius: 20px;
         box-shadow: rgb(158, 158, 158) 0px 3px 5px;
     }
-    
-    #instagram {
-        color:rgb(222, 236, 17);
-        font-size: 36px;
-        padding-bottom: 20px;
-        transition: color 250ms ease;
-    }
-    
-        
-    }
-    
-    .copy a {
-        color:white;
-        font-weight: 500;
-        transition: color 300ms ease, font-weight 300ms ease;
-    }
+
     
 }
 
