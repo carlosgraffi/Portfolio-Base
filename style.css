@@ -57,6 +57,9 @@ main .saludo h2 {
     color: white;
 }
 
+.bio img {
+    width: 200px;
+}
 .perfil {
 border-radius: 100%;
 padding-top: px;
@@ -353,3 +356,254 @@ footer {
     transform: scale(1.1, 1.1);
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main i {
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    main i a {
+        display: block;
+        font-size: 18px;
+    }
+    
+    video {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        right: 0;
+        top: 0;
+        object-fit: contain;
+        z-index: -1;
+        overflow: hidden;
+    }
+    
+    main .saludo h1 {
+      font-size: 2em;
+      margin-top: 40px;
+    }
+    
+    main .saludo {
+        color: white;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        margin: 0px 0px;
+        padding: 25px;
+    }
+    
+    main .saludo h2 {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .bio img {
+        width: 150px;
+    }
+    
+    .perfil {
+        border-radius: 100%;
+        transition: transform 400ms ease-in-out, padding 400ms ease-in-out;
+        }
+        
+    main .bio {
+        text-align: center;
+        margin-top: 60px;
+        
+    }
+    main .bio h2 {
+        color: black;
+        padding: 10px;
+        margin-top:0px;
+        margin-bottom: 5px;
+    }
+    .bio h3 {
+        font-size: 18px;
+    }
+    
+    .bio .bio-tarjeta {
+        display: inline-block;
+        line-height: 28px;
+        max-width: 85%;
+    }
+    
+    .bio-tarjeta .bio-descripcion {
+        font-size: 18px;
+        display: inline-block;
+        margin-top: 15px;
+        margin-bottom: auto;
+        padding: 20px;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+    }
+    
+    .bio-tarjeta .bio-descripcion h3 {
+        margin-bottom: 30px;
+    }
+
+    .skills h5 {
+        text-align: center;
+        font-weight: 300;
+      }
+      
+    .skills h2 {
+        text-align: center;
+        margin-top: 40px;
+        font-weight: 700;
+      }
+    
+      #devicon {
+          font-size: 72px;
+          margin-bottom:-100px;
+      }
+      .skills .tarjeta-content-skills-diseno {
+        margin-top: -30px;
+        left: 20px;
+      }
+    
+      .skills .tarjeta-content-skills-dev {
+        margin-top: -30px;
+      }
+    
+      .skills .tarjeta-content-skills-other {
+        margin-top: -30px;
+      }
+    
+      .skills .tarjeta-content-skills-diseno h3 {
+        line-height: 36px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 1em;
+      }
+    
+      .skills .tarjeta-content-skills-dev h3 {
+        line-height: 36px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 1em;
+      }
+    
+      .skills .tarjeta-content-skills-other h3 {
+        line-height: 36px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 1em;
+      }
+    
+    .skills {  
+          text-align: center;
+          margin: 20px 120px;
+      }
+      
+      
+    .skills .tarjeta-skills-dev:hover {
+        transform: scale(1.02, 1.02);
+        background-color: white;
+        color:black
+      }
+      
+    
+    .skills .tarjeta-skills-diseno {
+        position: relative;
+        left: -125px;
+        display: block;
+        float: none;
+        text-align: center;
+         color: white;
+         width: 250px;
+         height: 25em;
+         background-color: black;
+         margin: 20px;
+         padding: 60px;
+         border-radius: 20px;
+         box-shadow: rgb(158, 158, 158) 0px 3px 5px;
+         transition: transform 250ms ease, background-color 250ms ease, color 250ms ease;
+      }
+    
+      .skills .tarjeta-skills-dev {
+         display: block;
+         position: relative;
+         left: -125px;
+         color: white;
+         display: inline-block;
+         width: 250px;
+         height: 30em;
+         background-color: black;
+         margin: 20px;
+         padding: 60px;
+         border-radius: 20px;
+         box-shadow: rgb(158, 158, 158) 0px 3px 5px;
+         transition: transform 250ms ease, background-color 250ms ease, color 250ms ease;
+      }
+    
+
+      .skills .tarjeta-skills-other {
+         display: block;
+         position: relative;
+         left: 125px;
+         color: white;
+         width: 250px;
+         height: 25em;
+         background-color: black;
+         margin: 20px;
+         padding: 60px;
+         border-radius: 20px;
+         box-shadow: rgb(158, 158, 158) 0px 3px 5px;
+         transition: transform 250ms ease, background-color 250ms ease, color 250ms ease;
+      }
+
+    .contacto {
+        border-radius: 20px;
+        margin: 10px 20px;
+        color: white;
+        background-color: black;
+        padding: 30px;
+        text-align: center;
+        box-shadow: rgb(158, 158, 158) 0px 3px 10px;
+    }
+    
+
+    footer {
+        margin: 20px;
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: rgb(158, 158, 158) 0px 3px 5px;
+    }
+    
+    #instagram {
+        color:rgb(222, 236, 17);
+        font-size: 36px;
+        padding-bottom: 20px;
+        transition: color 250ms ease;
+    }
+    
+        
+    }
+    
+    .copy a {
+        color:white;
+        font-weight: 500;
+        transition: color 300ms ease, font-weight 300ms ease;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
